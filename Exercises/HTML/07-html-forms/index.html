@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create User</title>
+  </head>
+  <header>
+    <h1>Create User</h1>
+    <hr />
+  </header>
+  <main>
+    <form action="create-user.html" method="GET">
+      
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="email" required />
+      <br />
+
+      <label for="username">Username:</label>
+      <input type="text" name="username" placeholder="username" size="30" maxlength="12"/>
+      <br />
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" placeholder="password" size="30" maxlength="8" required/>
+      <br />
+
+      <label for="bio">Bio:</label><br />
+      <textarea placeholder="give a brief description of this user">
+      </textarea>
+      <br />
+
+      <fieldset>
+        <legend>Interests</legend>
+        <label for="txtsuperhero">Select your favourite superhero</label>
+        <input type="radio" id="superman" name="superhero" /> Superman
+        <input type="radio" id="batman" name="superhero" /> Batman
+        <input type="radio" id="wonderwoman" name="superhero" checked /> Wonder Woman
+        <input type="radio" id="flash" name="superhero" /> Flash
+        <input type="radio" id="thor" name="superhero" /> Thor
+        <input type="radio" id="hulk" name="superhero" /> Hulk
+
+        <br />
+
+        <label for="videogames">Select your favourite superhero</label>
+        <input type="checkbox" value="fifa" name="videogames" checked /> Fifa
+        <input type="checkbox" value="nhl" name="videogames" /> NHL
+        <input type="checkbox" value="residentevil" name="videogames" /> Resident Evil
+        <input type="checkbox" value="uncharted" name="videogames" checked /> Uncharted
+        <input type="hidden" name="userid" value="2300" />
+      </fieldset>
+      <button>Created User!</button>
+      
+    </form>
+  </main>
+</html>
