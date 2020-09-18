@@ -1,0 +1,18 @@
+header {
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul {
+    padding-left: 0;
+  }
+  nav ul li a {
+    color: red;
+  }
+  p {
+    font-size: 18px;
+  }
+  nav ul li a.active {
+    color: #00aced;
+  }
