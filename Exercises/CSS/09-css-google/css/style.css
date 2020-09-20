@@ -1,0 +1,125 @@
+*{
+    font-family: sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+
+  nav a,
+  nav img {
+    margin-right: 15px;
+  }
+
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.google-logo {
+    width: 150px;
+}
+
+
+.div-search{
+   display: flex;
+   align-items: center;
+   border: 1px solid #dfe1e5;
+   border-radius: 25px;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.div-search img{
+  width: 10px;
+  height: auto;
+}
+.div-search input {
+margin-left: 10px;
+margin-right: 10px;
+width: 250px;
+border: 0;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button button {
+  margin-right: 5px;
+  background: #f2f2f2;
+  color: #333;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 16px;
+}
+.div-idioma{
+    display: flex;
+    justify-content: center;
+
+}
+.div-idioma a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+.footer p{
+  color: #333;
+  display: flex;
+  background-color:  #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+  padding: 1.5%;
+  margin: 0;
+ 
+}
+.footer .links {
+  display: flex;
+  background-color:  #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+  padding: 1.5%;
+  justify-content: space-between;  
+}
+
+.footer .links a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+.footer .links a:hover {
+  text-decoration: underline;
+}
+.nav-right .photo{
+  border-radius: 50%;
+  
+}
+
+.nav-right .menu{
+width: 15px;
+height:14px ;
+}
