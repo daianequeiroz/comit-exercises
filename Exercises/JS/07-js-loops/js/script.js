@@ -1,10 +1,12 @@
 "use strict";
 
-for (let i = 1; i < 1000; i++) {
-   let result = +i;
-    if (result > 400) break;
+let result=0;
+for (let i = 1; i <= 1000; i++) {
+    if (result >= 400) break;
+    result++;
     console.log(result);
 }
+
 //Show numbers from 0 to 10
 for (let i = 0; i <= 10; i++) {
     console.log(i);
