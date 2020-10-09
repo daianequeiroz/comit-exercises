@@ -7,7 +7,6 @@ let user1 = {
 console.log(user1);
 console.log(typeof(user1));
 
-
 if (user1.username == 'batman' && user1.password == 'hunter2') {
     console.log('Access Granted');    
 } else {
