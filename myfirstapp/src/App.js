@@ -16,5 +16,5 @@ return (
            <div>City: {person.city}</div>
        ))}
   </div>
-  );
+  )
 }
